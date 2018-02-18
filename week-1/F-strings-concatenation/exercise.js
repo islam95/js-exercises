@@ -5,4 +5,4 @@ var name = "Islam";
 
 var greeting = message + name;
 
-console.log(message);
+console.log(greeting);
