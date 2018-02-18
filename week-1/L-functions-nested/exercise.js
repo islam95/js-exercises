@@ -21,6 +21,7 @@ console.log(shout(mentor2));
 console.log(shout(mentor3));
 console.log(shout(mentor4));
 console.log(shout(mentor5));
+console.log("\n");
 
 // ---------------------------------------------------
 // Execise 1
