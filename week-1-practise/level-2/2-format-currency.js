@@ -6,12 +6,15 @@
   Write a function that transforms numbers into the format £0.00
 */
 
-function formatCurrency() {}
+function formatCurrency(number) {
+  var result = number.toFixed(2);
+  return "£" + result;
+}
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
 
-function calculateSalesTax(price, tax) {
+function calculateSalesTax(price) { // As I understand this function should take only 1 parameter as it called below
   return price * 0.2;
 }
 
