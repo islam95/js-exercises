@@ -13,7 +13,7 @@ var rateBRL = 4.56;
 // Adds 1% to any given number
 function addForeignFee(price){
   var fee = price * 0.01;
-  result = fee + price;
+  var result = fee + price;
   return result;
 }
 
