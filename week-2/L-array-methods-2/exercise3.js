@@ -5,9 +5,9 @@
 */
 
 var ukNations = ["Scotland", "Wales", "England", "Northern Ireland"];
-
+// gives error here, need to find out why
 function isInUK(country) {
-  return; // complete this statement
+  return ukNations.includes(country); // complete this statement
 }
 
 /* 
