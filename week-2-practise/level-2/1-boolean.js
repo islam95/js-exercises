@@ -2,7 +2,7 @@
 // Why doesn't it work?
 // Fix it.
 
-var isHappy = "false";
+var isHappy = false; // this needs to be boolean value instead of string
 
 if (isHappy) {
   console.log("I am happy");
