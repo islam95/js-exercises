@@ -22,12 +22,4 @@ var salesTax = calculateSalesTax(price);
 console.log("Product: " + product);
 console.log("Price: £" + price);
 console.log("Sales tax: £" + salesTax);
-
-/*
-  I have to change this line of code because it castes the numbers as strings
-  So it outputs 12.52.5 instead of 15
-  Prevent the implicit string casting by swapping the plus sign (+) with a comma (,)
-  https://stackoverflow.com/questions/14597246/javascript-console-logobject-vs-concatenating-string
-  Let me know if I am wrong. Thank you.
-*/
-console.log("Total: £", price + salesTax);
+console.log("Total: £" + (price + salesTax));

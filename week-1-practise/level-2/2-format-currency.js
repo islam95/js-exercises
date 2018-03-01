@@ -14,7 +14,7 @@ function formatCurrency(number) {
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
 
-function calculateSalesTax(price) { // As I understand this function should take only 1 parameter as it called below
+function calculateSalesTax(price) {
   return price * 0.2;
 }
 
