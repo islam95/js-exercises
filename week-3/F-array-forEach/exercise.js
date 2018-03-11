@@ -9,6 +9,23 @@
 
 var arr = new Array(100);
 
+for(var i = 1; i < arr.length; i++){
+  arr[i] = i;
+}
+
+arr.forEach(function(index) {
+  if(index%3 === 0 && index%5 === 0){
+    console.log("FizzBuzz");
+  } else if(index%3 === 0){
+    console.log("Fizz");
+  } else if(index%5 === 0){
+    console.log("Buzz");
+  } else{
+    console.log(index);
+  }
+});
+
+
 /* EXPECTED OUTPUT */
 
 /*
