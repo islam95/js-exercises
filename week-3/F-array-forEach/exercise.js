@@ -7,23 +7,14 @@
   You have been given an array with 100 empty items.
 */
 
-var arr = new Array(100);
+var arr = new Array(10);
 
-for(var i = 1; i < arr.length; i++){
-  arr[i] = i;
-}
-
-arr.forEach(function(index) {
-  if(index%3 === 0 && index%5 === 0){
-    console.log("FizzBuzz");
-  } else if(index%3 === 0){
-    console.log("Fizz");
-  } else if(index%5 === 0){
-    console.log("Buzz");
-  } else{
-    console.log(index);
-  }
+arr.forEach(function(element, index) {
+  
+  console.log(arr);
 });
+
+console.log(arr);
 
 
 /* EXPECTED OUTPUT */
