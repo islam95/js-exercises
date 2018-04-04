@@ -33,10 +33,10 @@ For example, print your name every 2 seconds.
 
 // Write your code here
 
-setInterval(function() {
+/*setInterval(function() {
 	console.log("Islam");
 }, 2000);
-
+*/
 /*
 ========
 Task 4
